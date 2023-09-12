@@ -1,0 +1,76 @@
+.container_contactanos {
+  position: initial;
+  width: 1%;
+  box-shadow: 2px 4px 8px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  line-height: 3.5em;
+  color: rgb(255, 255, 255);
+  background: rgba(158, 1, 78, 1);
+  background: radial-gradient(
+    at left top,
+    rgba(158, 1, 78, 1),
+    rgba(1, 1, 1, 1)
+  );
+}
+
+#contactanos {
+  display: flex;
+  padding: 15px 280px;
+  margin-top: 80px;
+  color: rgb(240, 236, 236);
+}
+
+#informacion_contacto {
+  -webkit-text-stroke: 1px black;
+  color: rgb(236, 229, 229);
+  font-weight: 800;
+  font-size: 20px;
+  width: 100%;
+  font-size: 17px;
+  text-overflow: clip;
+}
+#titulo_formulario {
+  margin-bottom: 20px;
+}
+#terminos_condiciones {
+  margin-top: 30px;
+}
+
+.recuadros {
+  padding: 10px;
+  color: #000000;
+
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+.formulario {
+  
+  margin: 50px 320px;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  width: 54%;
+  box-shadow: 2px 4px 8px;
+  background: rgba(158, 1, 78, 1);
+  background: radial-gradient(
+    at left top,
+    rgba(158, 1, 78, 1),
+    rgba(1, 1, 1, 1)
+  );
+}
+
+#mensaje {
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 40px;
+  min-height: 40px;
+}
